@@ -1,0 +1,52 @@
+
+
+body {
+	font-family: Mustasurma;
+	text-align: center;
+	list-style-type: none;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+header {
+	width: 50em;
+	margin: 0 auto;
+	background-color: rgba(0,0,0, 0.4);
+}
+
+
+#search-form {
+	display: block;
+	width: 100%;
+	text-align: left;
+	margin-left: 34em;
+}
+
+#search-form input {
+	margin-top: 1.5em;
+	width: 20em;
+	height: 5em;
+}
+
+ ul {
+	text-align: left;
+	width: 50em;
+	margin-left: 9.5em;
+}
+
+#search-results li {
+		height: 15em;
+		list-style-type: none;
+		position: relative;
+		padding-left: 2em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+}
+
+
+#search-results li:nth-child(odd) {
+    background-color: rgba(0,0,0, .1)
+}
+
+.thumb{
+	text-align: left;
+}
